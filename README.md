@@ -11,8 +11,7 @@ This is a Restaurant Ordering System which uses builder, observer and singleton 
 
 
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.:
+- Flexibility in implementation:
 
 - The implementation provided utilizes Builder and Observer design patterns, 
 ensuring flexibility and maintainability. The Builder pattern separates the construction 
@@ -20,8 +19,7 @@ of meals, allowing the easy addition of new meal types. The Observer pattern con
 Customer and Chef classes, enabling the straightforward addition or removal of observers without modifying the Customer. The Singleton pattern in the Menu class simplifies menu management by centralizing changes to menu items. Overall, this design allows for easier modification and extension of object types in the future.
 
 
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain:
+- Simplicity and understandability of your implementation:
 
 - Design patterns: The Builder and Observer design patterns improve the code's organization, making it easier to understand the program's structure and flow. The Builder pattern separates the meal creation process from its representation, while the Observer pattern promotes loose coupling between the Customer and Chef classes.
 
@@ -34,7 +32,7 @@ Code comments: Comments are used throughout the code to explain the purpose and 
 Modularity: The code is organized into separate classes and methods, each with a specific task. This modularity improves readability and maintainability, as it's easy to locate and modify specific parts of the code.
 
 
-- Describe how you have avoided duplicated code and why it is important:
+- Avoiding duplicated code:
 
 - In the implementation, duplicated code is avoided through the use of design patterns, abstraction, and a centralized menu management system. The Builder pattern helps create Meal objects with a consistent process, avoiding the need for repetitive code in different parts of the application. The Observer pattern enables loose coupling between classes, reducing the likelihood of code duplication. The Singleton pattern ensures a single instance of the Menu class, centralizing menu management and minimizing repeated code.
 
