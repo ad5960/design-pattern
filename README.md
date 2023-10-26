@@ -6,13 +6,6 @@
 | Course       | Spring                     |
 | Assignment # | Final Project              |
 
-# Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
-Restaurant Ordering System.
-
-# GitHub Repository Link:
-https://github.com/ad5960/CS665
-
 # Implementation Description 
 This is a Restaurant Ordering System which uses builder, observer and singleton design patterns.
 
