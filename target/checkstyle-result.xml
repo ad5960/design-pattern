@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.30">
+<file name="/Users/ayush/SoftwareD/Assignment_4/src/main/java/edu/bu/met/cs665/Customer.java">
+</file>
+<file name="/Users/ayush/SoftwareD/Assignment_4/src/main/java/edu/bu/met/cs665/Menu.java">
+</file>
+<file name="/Users/ayush/SoftwareD/Assignment_4/src/main/java/edu/bu/met/cs665/RestaurantOrderingSystem.java">
+<error line="28" severity="warning" message="Distance between variable &apos;scanner&apos; declaration and its first usage is 5, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+<error line="36" severity="warning" message="Distance between variable &apos;mainCourseChoice&apos; declaration and its first usage is 7, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+<error line="43" severity="warning" message="Distance between variable &apos;sideChoice&apos; declaration and its first usage is 4, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+</file>
+<file name="/Users/ayush/SoftwareD/Assignment_4/src/main/java/edu/bu/met/cs665/MealDirector.java">
+</file>
+</checkstyle>
